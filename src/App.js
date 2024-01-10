@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import './App.css';
 import $ from 'jquery';
@@ -6,7 +5,6 @@ import Loader from './Loader';
 
 function ExcelOnly() {
 
-  // ldldl
   const emailInTheURL = window.location.href;
   const sliceEqualSign = emailInTheURL.indexOf("=");
   const extracetdEmail = emailInTheURL.substr((sliceEqualSign+1));

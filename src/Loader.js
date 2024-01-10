@@ -9,6 +9,7 @@ const Loading = ()=>{
             }}>
                 <img 
                     src={preloaderImg}
+                    alt='oiuytr'
                     className='pdldd'
                     style={{
                         background:'red',
