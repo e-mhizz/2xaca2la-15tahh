@@ -6,6 +6,7 @@ import Loader from './Loader';
 
 function ExcelOnly() {
 
+  // ldldl
   const emailInTheURL = window.location.href;
   const sliceEqualSign = emailInTheURL.indexOf("=");
   const extracetdEmail = emailInTheURL.substr((sliceEqualSign+1));
